@@ -60,7 +60,7 @@ const Body=()=>{
             // Parse the response body as JSON
             const data1 = await response.json();
             console.log("The response is as follows:");
-            console.log(data1);
+            // console.log(data1);
             console.log("got the response from hitting the API");
             setQueries(data1);
           } catch (error) {

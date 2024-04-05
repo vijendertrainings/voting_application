@@ -1,4 +1,4 @@
-import Posts from "./Posts";
+import Post from "./Post";
 import Calendar from "./Calendar";
 import Login from "./Login";
 import Feed from "./Feed";
@@ -25,12 +25,12 @@ const SecondColumn=({feed_data})=>{
         );
         }
 
-        case "posts":
-        {
-            return (
-                <Posts/>
-        );
-        }
+        // case "posts":
+        // {
+        //     return (
+        //         <Post/>
+        // );
+        // }
 
         default:
         {

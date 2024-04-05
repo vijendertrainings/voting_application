@@ -3,7 +3,6 @@ import {useState} from "react";
 const Login=({})=>{
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
-    const [token, setToken] = useState('');
     const [showConfirmation, setShowConfirmation] = useState(false);
 
     const handleLogin = async () => {
@@ -20,7 +19,6 @@ const Login=({})=>{
           if (response.ok) {
             const data = await response.json();
             const authToken = data.accessToken; // Assuming token is returned as 'token' in the response
-            setToken(authToken);
             console.log("User authenticated successfully.Setting the token.")
             // Save token to localStorage or sessionStorage
             localStorage.setItem('token', authToken);

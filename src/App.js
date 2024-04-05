@@ -23,7 +23,7 @@ const BurgerKing={
 const AppLayout=()=>{
     return (
         <>
-        <div className="bg-slate-300 h-full">
+        <div className="bg-slate-300">
             <Header></Header>
             <Outlet/>
         </div>
