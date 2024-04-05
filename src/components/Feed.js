@@ -65,7 +65,7 @@ const Feed=({})=>{
       };
       
       try {
-        const response = await fetch("http://localhost:3000/posts/", requestOptions);
+        const response = await fetch("http://ec2-3-85-45-247.compute-1.amazonaws.com:3000/posts/", requestOptions);
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
