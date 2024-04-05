@@ -19,7 +19,7 @@ const Body=()=>{
     
  
     useEffect(()=>{
-         getListOfQueries();
+        //  getListOfQueries();
     }, []);
 
 
