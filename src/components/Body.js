@@ -96,9 +96,9 @@ const Body=()=>{
     // );
 
 
-    if(queries.length==0){
-        return <Shimmer/>
-    }else
+    // if(queries.length==0){
+    //     return <Shimmer/>
+    // }else
     console.log("inside the body section");
     return (
         <>
