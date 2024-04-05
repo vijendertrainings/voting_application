@@ -99,6 +99,7 @@ const Body=()=>{
     // if(queries.length==0){
     //     return <Shimmer/>
     // }else
+    //new comment
     console.log("inside the body section");
     return (
         <>
