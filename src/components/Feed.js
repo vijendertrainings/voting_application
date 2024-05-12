@@ -83,7 +83,7 @@ const Feed=({})=>{
     if(feedPosts ===""){
         return (
             <>
-                <div>Loading the posts ... </div>
+                <div>Loading the posts ... Making some changes here to validate in Netlify .... </div>
             </>
         );
     }
