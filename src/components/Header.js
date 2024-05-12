@@ -16,9 +16,9 @@ const Header=()=>{
             <Title/>
             <div className="flex">
                 <ul className="flex p-2 m-2">
-                    <li className="px-4"><Link to="/">Home</Link></li>
-                    <li className="px-4"><Link to="/about"> About Us</Link></li>
-                    <li className="px-4"><Link to="/contact"> Contact Us</Link></li>
+                    <li className="px-4"><Link to="/">Home1</Link></li>
+                    <li className="px-4"><Link to="/about"> About Us1</Link></li>
+                    <li className="px-4"><Link to="/contact"> Contact Us1</Link></li>
                 </ul>
             </div>
         </div>
